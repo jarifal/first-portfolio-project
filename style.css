@@ -5,11 +5,17 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
+header {
+    background-color: #FFF8F3;
+}
+
 /* nav related style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .logo-name {
@@ -37,7 +43,7 @@ nav ul {
 
 nav li {
     list-style: none;
-    margin-right: 150px;
+    margin-right: 80px;
 }
 
 nav li a {
@@ -48,7 +54,7 @@ nav li a {
 }
 
 
-nav li .btn-class {
+.btn-class {
     width: 130px;
     height: 50px;
     flex-shrink: 0;
@@ -57,12 +63,22 @@ nav li .btn-class {
     color: #FFF;
     font-size: 25px;
     font-weight: 700;
-    border: none;
+    border: 0;
     /* margin-top: -7px; */
     transition: .5s ease;
     cursor: pointer;
 }
 
-nav li .btn:hover {
+.btn-class:hover {
     background-color: #474747;
+}
+/* banner related */
+.banner {
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic {
+    width: 400px;
+    height: 600px;
 }
