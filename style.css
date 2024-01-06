@@ -8,6 +8,9 @@ body {
 
 header {
     background-color: #FFF8F3;
+    background-image: url("images/header_bg.png"), url("images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, 50px 50px;
 }
 
 /* nav related style */
@@ -15,15 +18,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: -20px 200px;
 }
 
 .logo-name {
     color: #181818;
     font-size: 55px;
     font-weight: 800;
-    /* margin-left: 40px;
-    margin-top: 0px; */
 }
 
 .span {
@@ -35,10 +36,6 @@ nav {
 
 nav ul {
     display: flex;
-    /* text-align: right; */
-    /* margin-left: 500px;
-    margin-top: 30px; */
-
 }
 
 nav li {
@@ -54,7 +51,7 @@ nav li a {
 }
 
 
-.btn-class {
+button.btn-clas {
     width: 130px;
     height: 50px;
     flex-shrink: 0;
@@ -63,22 +60,52 @@ nav li a {
     color: #FFF;
     font-size: 25px;
     font-weight: 700;
-    border: 0;
-    /* margin-top: -7px; */
+    border: none;
     transition: .5s ease;
     cursor: pointer;
 }
 
-.btn-class:hover {
+button.btn-clas:hover {
     background-color: #474747;
 }
+
 /* banner related */
 .banner {
-    padding: 30px 30px 30px 200px;
+    margin-top: -150px;
+    padding: 30px 30px 0px 200px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
+
 .banner .profile-pic {
-    width: 400px;
-    height: 600px;
+    width: 385px;
+    height: 700px;
+    margin-right: 90px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner .banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner .banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+.banner .banner-content {
+    max-width: 400px;
 }
