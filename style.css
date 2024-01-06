@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,500&display=swap');
+
+/* Common Style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-name {
+    color: #181818;
+    font-size: 55px;
+    font-weight: 800;
+    /* margin-left: 40px;
+    margin-top: 0px; */
+}
+
+.span {
+    color: #FD6E0A;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+nav ul {
+    display: flex;
+    /* text-align: right; */
+    /* margin-left: 500px;
+    margin-top: 30px; */
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 150px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+nav li .btn-class {
+    width: 130px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    /* margin-top: -7px; */
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+nav li .btn:hover {
+    background-color: #474747;
+}
